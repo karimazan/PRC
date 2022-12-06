@@ -1,0 +1,54 @@
+
+    table {
+        border-collapse: collapse;
+        min-width: 400px;
+        width: auto;
+        box-shadow: 0 5px 50px rgba(0, 0, 0, 15);
+        cursor: pointer;
+        margin: 75px auto;
+        padding: 2px solid midnightblue;
+        border: 1px solid rgb(239, 228, 22)s;
+        width: 50%;
+        height: 50px;
+        
+    }
+
+
+    th {
+        background-color: midnightblue;
+        color: white;
+    }
+
+    table {
+        border: 1px solid rgb(239, 228, 22);
+    }
+
+    thead tr {
+        background-color: rgb(3, 3, 39);
+        color: rgb(239, 228, 22);
+        text-align: center;
+
+    }
+
+    th,
+    td {
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    tbody tr,
+    td,
+    th {
+        border: 1px solid rgb(239, 228, 22);
+    }
+
+    body.dark table th {
+        background-color: midnightblue;
+        color: white;
+    }
+
+    body.dark table tr,
+    td {
+        background-color: #F6F5FF;
+        color: black;
+    }
